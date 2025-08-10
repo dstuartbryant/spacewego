@@ -1,0 +1,46 @@
+[project]
+name = "spacewego"
+version = "0.1.0"
+description = "A private top-level package dependent on several other private packages."
+authors = [
+    {name = "aegis",email = "info@spacewego.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy[recommended] (>=7.0.1,<8.0.0)",
+    "plotly (>=6.0.1,<7.0.0)",
+    "kaleido (==0.2.1)",
+    "prometheus (>=0.1.7)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "sofa (>=0.2.9)",
+    "pytest-mock (>=3.14.1,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+isort = "^6.0.1"
+ipython = "^9.2.0"
+pyshtools = "^4.13.1"
+pytest-cov = "^5.0.0"
+
+[tool.poetry.dependencies]
+
+[[tool.poetry.source]]
+name = "sw_private_pypi"
+url = "https://7ks369mgv4.execute-api.us-west-2.amazonaws.com/dev"
+priority = "primary"
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.black]
+line-length = 88
+
