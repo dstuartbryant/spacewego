@@ -18,6 +18,32 @@ url = "https://7ks369mgv4.execute-api.us-west-2.amazonaws.com/dev"
 reference = "sw_private_pypi"
 
 [[package]]
+name = "astro"
+version = "0.1.21"
+description = "A Python package for astrodynamics and orbit propagation."
+optional = false
+python-versions = ">=3.11"
+groups = ["main"]
+files = [
+    {file = "astro-0.1.21-py3-none-any.whl", hash = "sha256:1869dd5ad2e46849a4745cb9823d1f53461814292e64e454cdc16abfa8b4ae59"},
+    {file = "astro-0.1.21.tar.gz", hash = "sha256:6998c403150bcb9edcd8738a35ca06c2ea7d0986f2ab6cdb5bfb55eb74f3f9c6"},
+]
+
+[package.dependencies]
+astropy = {version = ">=7.0.1,<8.0.0", extras = ["recommended"]}
+kaleido = "0.2.1"
+plotly = ">=6.0.1,<7.0.0"
+prometheus = ">=0.1.7"
+pydantic = ">=2.11.7,<3.0.0"
+pytest-mock = ">=3.14.1,<4.0.0"
+sofa = ">=0.2.9"
+
+[package.source]
+type = "legacy"
+url = "https://7ks369mgv4.execute-api.us-west-2.amazonaws.com/dev"
+reference = "sw_private_pypi"
+
+[[package]]
 name = "astropy"
 version = "7.1.0"
 description = "Astronomy and astrophysics core library"
@@ -2438,4 +2464,4 @@ reference = "sw_private_pypi"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "115356d76c8bb6020f7e190168043b7d0bc61f25a2d57a48ff7d900b6c000dba"
+content-hash = "1ac4d53e255da2406e978e8b5dca531f56aeb97fc480dce748fba29f02e23343"
