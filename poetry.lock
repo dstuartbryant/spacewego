@@ -19,24 +19,24 @@ reference = "sw_private_pypi"
 
 [[package]]
 name = "astro"
-version = "0.1.21"
+version = "0.1.22"
 description = "A Python package for astrodynamics and orbit propagation."
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "astro-0.1.21-py3-none-any.whl", hash = "sha256:1869dd5ad2e46849a4745cb9823d1f53461814292e64e454cdc16abfa8b4ae59"},
-    {file = "astro-0.1.21.tar.gz", hash = "sha256:6998c403150bcb9edcd8738a35ca06c2ea7d0986f2ab6cdb5bfb55eb74f3f9c6"},
+    {file = "astro-0.1.22-py3-none-any.whl", hash = "sha256:53d62fdc3e6201fd1d5fa1ebc826bb6a84b28e6319ea92c8e03004d7a4959f1b"},
+    {file = "astro-0.1.22.tar.gz", hash = "sha256:e05e0bca9ad0e9ef88e9b6c863210d35e88a7a5d69ead6b6aea1660c77510773"},
 ]
 
 [package.dependencies]
 astropy = {version = ">=7.0.1,<8.0.0", extras = ["recommended"]}
 kaleido = "0.2.1"
 plotly = ">=6.0.1,<7.0.0"
-prometheus = ">=0.1.7"
+prometheus = ">=0.1.8"
 pydantic = ">=2.11.7,<3.0.0"
 pytest-mock = ">=3.14.1,<4.0.0"
-sofa = ">=0.2.9"
+sofa = ">=0.2.11"
 
 [package.source]
 type = "legacy"
@@ -1589,14 +1589,14 @@ reference = "sw_private_pypi"
 
 [[package]]
 name = "prometheus"
-version = "0.1.7"
+version = "0.1.8"
 description = "Data management and provisioning package."
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "prometheus-0.1.7-py3-none-any.whl", hash = "sha256:6cca60621c70478c6c04052784a8cde53cce50e236749bb4842746d183ca4f3f"},
-    {file = "prometheus-0.1.7.tar.gz", hash = "sha256:424f04a579bd8462263f9f613f4445a0658d4734a4bd00fb8a43f39d785200d1"},
+    {file = "prometheus-0.1.8-py3-none-any.whl", hash = "sha256:63a0d6027ff1a6de6bb1bbe149a9c6de29ddc4fd4b412d493bd4218697e556bb"},
+    {file = "prometheus-0.1.8.tar.gz", hash = "sha256:6f4b4f6da57adb7fcc52c65f4b7ca54440fa757f24b165bb050a7f10bbb37c09"},
 ]
 
 [package.dependencies]
@@ -2239,20 +2239,20 @@ reference = "sw_private_pypi"
 
 [[package]]
 name = "sofa"
-version = "0.2.9"
+version = "0.2.11"
 description = "A module for using International Astronomical Union's SOFA library."
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "sofa-0.2.9-py3-none-any.whl", hash = "sha256:c1171773a34f8bc68776839098e180a363cc63e22bdefdcc5f966097b2810e11"},
-    {file = "sofa-0.2.9.tar.gz", hash = "sha256:fb02b42d360d189ae0282d531b7e218ccc7a976c91c36badabca35814558c815"},
+    {file = "sofa-0.2.11-py3-none-any.whl", hash = "sha256:d03d0982f771414cc3050af3a2d50b8014d01aa9543f5b5cd9fc3c0079141adf"},
+    {file = "sofa-0.2.11.tar.gz", hash = "sha256:fbe4656f570f26321c131411b8f0a83f6b271b90ce7c76f2c795eddc5b282117"},
 ]
 
 [package.dependencies]
 astropy = ">=7.0.1,<8.0.0"
 numpy = ">=2.2.5,<3.0.0"
-prometheus = ">=0.1.7"
+prometheus = ">=0.1.8"
 pydantic = ">=2.11.4,<3.0.0"
 requests = ">=2.32.3,<3.0.0"
 scipy = ">=1.15.2,<2.0.0"
@@ -2464,4 +2464,4 @@ reference = "sw_private_pypi"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "1ac4d53e255da2406e978e8b5dca531f56aeb97fc480dce748fba29f02e23343"
+content-hash = "d731ef202f25f1d13146dccacd6fe6f0012a33515bba7367035a672756ccf0fd"
