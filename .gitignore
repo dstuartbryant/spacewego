@@ -267,3 +267,5 @@ poetry_build
 build/
 figures/
 gprompts*
+
+node_modules/

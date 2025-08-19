@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Starter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="controls-container">
+        <button id="start-stop-btn">Start</button>
+        <label for="speed-slider">Speed:</label>
+        <input type="range" id="speed-slider" min="0" max="0.02" step="0.001" value="0.002">
+        <label for="lat-input">Latitude:</label>
+        <input type="text" id="lat-input" value="29.9511">
+        <label for="lon-input">Longitude:</label>
+        <input type="text" id="lon-input" value="-90.0715">
+        <button id="submit-btn">Submit</button>
+        <div id="timestamp-container">
+            Current Time: <span id="timestamp-display"></span>
+        </div>
+    </div>
+    <canvas class="threejs"></canvas>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
